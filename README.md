@@ -22,5 +22,5 @@ scoop install lua
 ## variáveis de ambiente
 <image src="./public/variaveis-ambiente.png" alt="imagem png das variáveis de ambiente">
 
-## Onde fazer o download do lua
-[click here](https://www.lua.org/download.html)
+## Onde fazer o download do lua - Manual
+[click aqui](https://www.lua.org/download.html)

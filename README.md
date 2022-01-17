@@ -3,7 +3,7 @@
 lua filename.lua
 ```
 
-## requisitos
+## Requisitos
 [.net framework](https://dotnet.microsoft.com/en-us/download)
 [powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
 
@@ -23,7 +23,7 @@ Lua
 scoop install lua
 ```
 
-## variáveis de ambiente
+## Variáveis de ambiente
 <image src="./public/variaveis-ambiente.png" alt="imagem png das variáveis de ambiente">
 
 ## Onde fazer o download do lua - Manual

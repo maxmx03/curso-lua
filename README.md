@@ -3,6 +3,10 @@
 lua filename.lua
 ```
 
+## requisitos
+[.net framework](https://dotnet.microsoft.com/en-us/download)
+[powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2)
+
 ## Instalação do Lua
 Scoop
 ```powershell

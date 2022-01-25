@@ -1,16 +1,17 @@
 require"utils"
 
 section "error function"
-write "Digite um valor"
+io.write "Digite um valor: "
 local numero = io.read("n")
 
-if type(numero) ~= "number" then
+if not numero then
   error "Você não digitou um número"
 end
 
 section "assert function"
-write "Digite um valor"
+io.write "Digite um valor: "
 local numero = assert(io.read("n"), "Você não digitou um número")
+
 write(numero)
 
 section "pcall"
@@ -27,6 +28,7 @@ local status, err = pcall(function ()
     error(messages)
   else
     local calculo = dividendo / divisor
+    
     write(calculo)
   end
 end)

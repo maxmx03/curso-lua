@@ -53,7 +53,6 @@ write(type(numeroToNumber))
 write(math.type(integerToFloat))
 write(type(floatToInteger))
 
-
 section("coerção")
 write("1" + "1")
 write("2" / "2")

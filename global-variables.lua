@@ -28,4 +28,3 @@ do
   write(NUMERO)
   write(numero)
 end
-

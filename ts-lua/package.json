@@ -1,0 +1,17 @@
+{
+  "name": "ts-lua",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn tstl",
+    "dev": "yarn tstl --watch"
+  },
+  "keywords": [],
+  "author": "Max",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "typescript-to-lua": "^1.3.3"
+  }
+}

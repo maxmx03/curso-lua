@@ -1,6 +1,6 @@
-require"utils"
+require "utils"
 
-section"Introdução para OOP"
+section "Introdução para OOP"
 --[[
 Pessoa = {
   nome = "",
@@ -33,7 +33,7 @@ fernanda.sobrenome = "Miliano"
 write(string.format("Nome: %s", max.nome))
 write(string.format("Sobrenome: %s", max.sobrenome))
 ]]
-section"OOP (self)"
+section "OOP (self)"
 local Pessoa = {}
 
 Pessoa.nome = ""
@@ -41,7 +41,7 @@ Pessoa.sobrenome = ""
 
 function Pessoa:new(object)
   object = object or {}
-  
+
   self.__index = self
   setmetatable(object, self)
 
@@ -57,8 +57,8 @@ function Pessoa:setSobrenome(sobrenome)
 end
 
 local max = Pessoa:new({})
-max.setNome(max, "Max")
-max.setSobrenome(max,"Miliano")
+max:setNome("Max")
+max:setSobrenome("Miliano")
 
 local fernanda = Pessoa:new({})
 fernanda.nome = "Fernanda"
@@ -66,7 +66,6 @@ fernanda.sobrenome = "Miliano"
 
 write(string.format("Nome: %s", max.nome))
 write(string.format("Sobrenome: %s", max.sobrenome))
-
 
 write(string.format("Nome: %s", fernanda.nome))
 write(string.format("Sobrenome: %s", fernanda.sobrenome))

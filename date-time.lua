@@ -1,6 +1,6 @@
-require"utils"
+require "utils"
 
-section"os.time"
+section "os.time"
 local time = os.time()
 local day_in_year = 365.242
 local sec_in_hour = 60 * 60

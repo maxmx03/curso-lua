@@ -8,5 +8,3 @@ function section(title)
 
   io.write(string.format("%s %s %s \n", symbol, title, symbol))
 end
-
-return write, section
